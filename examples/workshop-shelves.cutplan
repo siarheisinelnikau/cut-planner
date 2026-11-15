@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project": {
+    "name": "Workshop shelves",
+    "material": "Birch plywood · 18 mm",
+    "unit": "Mm",
+    "stock": [
+      {"id": 1, "name": "Plywood", "width": 2440000000, "height": 1220000000, "quantity": 2, "grain": "Width"}
+    ],
+    "parts": [
+      {"id": 1, "name": "Side", "width": 1000000000, "height": 300000000, "quantity": 4, "rotate": true, "grain": "Width"},
+      {"id": 2, "name": "Shelf", "width": 600000000, "height": 300000000, "quantity": 6, "rotate": true, "grain": "Width"},
+      {"id": 3, "name": "Brace", "width": 600000000, "height": 80000000, "quantity": 4, "rotate": true, "grain": "None"}
+    ],
+    "constraints": {"kerf": 3000000, "trim": 5000000, "min_offcut": 50000000}
+  }
+}

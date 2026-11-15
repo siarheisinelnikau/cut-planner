@@ -1,0 +1,4 @@
+name,width,height,quantity,rotate,grain,unit
+Side,1000,300,4,true,width,mm
+Shelf,600,300,6,true,width,mm
+Brace,600,80,4,true,none,mm
